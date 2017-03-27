@@ -605,6 +605,7 @@ set(LIBRAW_LIBS ${TARGETS})
 
 set(LIBRAW_LIBRARIES optimized ${CMAKE_BINARY_DIR}/Release/raw.lib debug ${CMAKE_BINARY_DIR}/Debug/raw.lib)
 set(LIBRAW_INCLUDE_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+set(LIBRAW_BUILD_PATH ${CMAKE_BINARY_DIR})
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/libraw.cmake.in ${CMAKE_BINARY_DIR}/librawConfig.cmake)
 
 
