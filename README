@@ -1,3 +1,18 @@
+# LibRaw
+## for nomacs
+
+this LibRaw fork includes a modified CMAKE [1].
+
+## Build
+1. Open CMake GUI
+2. Point `where is the source` to this directory
+3. Choose a build folder
+4. Hit `Configure` then `Generate`
+5. Batch build all projects
+6. In nomacs set the `libraw_DIR` to your build folder
+
+
+Here is the original ReadMe:
 ======================   LibRaw ==============================
 == Library for reading and processing of RAW digicam images ==
 
@@ -25,3 +40,5 @@ You may use one of these licensing modes and switch between them.
 
 If you modify LibRaw source and made your changes public, you should accept
 both two licensing modes for your changes/additions.
+
+[1] https://github.com/LibRaw/LibRaw-cmake
